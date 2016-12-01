@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480552838 source:c:\users\emanuele\desktop\programmi\tris2.0\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+

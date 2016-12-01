@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1479986773 source:c:\users\softdev1\desktop\programmi\es2\main.cpp
-	<iostream>
-	<time.h>
-	<stdio.h>
-	<stdlib.h>
-

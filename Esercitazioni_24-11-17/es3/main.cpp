@@ -25,7 +25,7 @@ int main()
     int rig,col,x,y;
     do
     {
-        srand(time(NULL));
+        srand(34);
         rig=rand()%10;
         col=rand()%10;
         matrix[rig][col]=true;
