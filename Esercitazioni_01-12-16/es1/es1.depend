@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1480589841 source:c:\users\softdev1\desktop\programmi\es1\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+	<ctime>
+
