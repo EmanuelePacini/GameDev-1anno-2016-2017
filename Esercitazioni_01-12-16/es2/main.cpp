@@ -100,7 +100,7 @@ void movimento(char mov)
     switch(mov)
         {
             case 'w':
-                if(matrix[posx][posy]!=0)
+                if(posx!=0)
                 {
                     if(matrix[posx-1][posy]!=1&&matrix[posx-1][posy]!=3)
                     {
@@ -121,7 +121,7 @@ void movimento(char mov)
                 }
                 else
                 {
-                    if(matrix[0][posy]!=1&&matrix[0][posy]!=3)
+                    if(matrix[posx][posy]!=1&&matrix[posx][posy]!=3)
                     {
                         posx=4;
                         matrix[0][posy]=0;
@@ -140,7 +140,7 @@ void movimento(char mov)
                 }
                 break;
             case 'a':
-                if(matrix[posx][posy]!=0)
+                if(posy!=0)
                 {
                     if(matrix[posx][posy-1]!=1&&matrix[posx][posy-1]!=3)
                     {
@@ -181,7 +181,7 @@ void movimento(char mov)
                 break;
 
             case 's':
-                 if(matrix[posx][posy]!=4)
+                 if(posx!=4)
                 {
                     if(matrix[posx+1][posy]!=1&&matrix[posx+1][posy]!=3)
                     {
@@ -221,7 +221,7 @@ void movimento(char mov)
                 }
                 break;
             case 'd':
-                if(matrix[posx][posy]!=0)
+                if(posy!=4)
                 {
                     if(matrix[posx][posy+1]!=1&&matrix[posx][posy+1]!=3)
                     {
