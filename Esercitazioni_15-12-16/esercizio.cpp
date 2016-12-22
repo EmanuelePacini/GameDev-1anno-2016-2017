@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <vector>
+
 
 using namespace std;
 const int MAXTANK=5;
